@@ -87,7 +87,7 @@ def gen_conf():
             "  database {}".format(DB_DB),
             "  username {}".format(DB_USER),
             "  password {}".format(DB_PWD),
-            "  column_names {}".format(table),
+            "  column_names {}".format(tables[table]),
             "  table {}".format(table),
             "  flush_interval {}s".format(DB_FLUSH_INTERVAL),
             "</match>"
